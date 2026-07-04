@@ -212,3 +212,27 @@ Olet halunnut vaihtaa Slackin/WhatsAppin Telegramiin tällaisessa agentissa.
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:13
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+Supabase / pgvector / Knowledge Base AI
+
+Olet rakentanut yrityksen tietopankki-AI:ta, jossa:
+
+n8n Cloud toimii automaatiokerroksena.
+Supabase toimii tietokantana.
+pgvector mahdollistaa vektorihakujen käytön.
+OpenAI embeddings, erityisesti text-embedding-3-small, on ollut käytössä.
+Google Drive toimii dokumenttilähteenä.
+Obsidian toimii käyttöliittymänä/tiedostorakenteena.
+Agentti voi lukea tietopankista ja vastata sen perusteella.
+
+Olet saanut ingestion-ajon toimimaan ja chat-agentin julkaistua. Aluksi URL/trigger-ongelmia oli, mutta ne korjattiin.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
