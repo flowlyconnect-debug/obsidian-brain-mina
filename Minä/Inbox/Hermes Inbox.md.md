@@ -291,3 +291,37 @@ Olet halunnut, että puhelinnumero on pakollinen. Jos Playwright ei löydä tiet
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:14
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+Gmail-agentit
+
+Olet rakentanut Gmail-pohjaisia agentteja, erityisesti markkinointitoimistoille suunnattua prototyyppiä. Ensimmäiseksi versioksi halusit Gmail-only-ratkaisun, ei heti SaaSia.
+
+Olet valinnut ideaksi agentin, joka tunnistaa riskiasiakkaita / asiakaskatoa ja ehdottaa toimenpiteitä. Olet halunnut päivittäisen Gmail-raportin ulostuloksi ja käyttää aluksi omaa Gmail-testidataa.
+
+Olet myös halunnut, että Gmail-raportit ovat aina suomeksi ja samalla HTML-layoutilla, kuten taulukkomuotoinen raportti, jotta AI ei muuta ulkoasua joka kerta.
+
+Asiakaskato-agentti / Churn-agentti
+
+Olet tehnyt asiakaskatoagentin n8n:llä. Se arvioi asiakkaille churn-riskin 0–100, antaa syyn, kiireellisyyden ja toimenpide-ehdotuksen. Raportti lähetetään Gmaililla esimerkiksi maanantaisin klo 08:00. Testidata oli ensin sisäistä, myöhemmin tuotantodataa voisi tulla Google Sheetsistä.
+
+Monitoring-agentti
+
+Olet tehnyt valvonta-/monitorointityyppisen agentin, joka tarkistaa esimerkiksi:
+
+Gmailin 24 tunnin muutokset
+muuttuneet Drive-tiedostot
+Supabase DB:n
+CRM:n tai projektityökalun
+poikkeamat ja muutokset
+
+Ajatuksena on tuottaa aamuraportti. Raporttikansio puuttui aluksi, mutta lisäsit sen myöhemmin.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
