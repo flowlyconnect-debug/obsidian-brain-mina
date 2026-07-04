@@ -518,3 +518,81 @@ Olet myös pyytänyt, että FlowlyLeads jätetään pois joistain hakemuksista, 
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:15
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+Matka, arki ja muut henkilökohtaiset jutut
+
+Olet maininnut Bali-matkan 18.–25.9.2026, alueina Uluwatu ja Canggu. Olet kysynyt, miten ADHD- ja mielialalääkkeet saa vietyä Balille.
+
+Olet tehnyt ruokabudjettisuunnitelmia, esimerkiksi 20 €/päivä ja treffiruoka 20 € budjetilla. Olet kysynyt lohturuokia noin 15 € budjetilla, grilled cheese -ateriaan proteiinia, tomaattisalaatin proteiinilisää ja entrecôten lisukkeita.
+
+Olet kysynyt myös Revolut-referral-tyyppisestä viestistä, jossa tarvitaan kolme 5 € online-ostosta ja lupasit korvata osallistujalle kortin ja lisäbonuksen.
+
+Olet pohtinut sijoitustavoitetta, esimerkiksi 5000 € vuoden loppuun mennessä.
+
+Ruoka- ja arkiasioista tiedän
+
+Olet kysynyt muun muassa:
+
+grilled cheese + proteiini
+tomaattisalaattiin proteiinia
+mikä liha sopii grilled cheesen kanssa
+entrecôten lisukkeet
+maminha vs entrecôte
+denver steak
+flank steak
+nopeat rapeat perunat
+treffi-ruoka 20 € budjetilla
+lohturuokia 15 € budjetilla
+ostoslista ilman mausteita K-kauppaan
+
+Näistä ei muodostu mitään pysyvää ruokavalioprofiilia, mutta tiedän, että haet usein käytännöllisiä, budjettiin sopivia ja helppoja ruokaratkaisuja.
+
+Muita kiinnostuksenkohteita
+
+Olet kysynyt muun muassa:
+
+Slackin käyttö tiimissä
+NotebookLM + Obsidian
+oman LLM:n tekeminen
+Rolex-tehtaat ja Japanin läheisyys designer-/kellomarkkinoissa
+3D-keittiösuunnittelu
+Etelä-Pohjanmaan yritykset ja automaatiokohteet
+Eezy-tyyppiset yritykset
+Claude Fable 5:n hyödyntäminen researchiin ja FlowLeads-projektiin
+agenttien koodirakenteet
+LangChain vs n8n Agent node
+Puppeteer ja Playwright
+Supabase vs PostgreSQL
+
+Millainen tekijä olet minun näkökulmasta
+
+Olet käytännönläheinen AI-/automaatioyrittäjä, joka rakentaa oikeita järjestelmiä, ei vain ideoi. Sinulla on monta rinnakkaista projektia, mutta niiden punainen lanka on selvä:
+
+Haluat rakentaa AI-agentteja ja automaatioita, jotka poistavat yrityksiltä manuaalista työtä, löytävät liidejä, seuraavat tietoa, rikastavat dataa, tekevät päätöksiä ja tuottavat selkeää rahallista arvoa.
+
+Sinulle tärkeää ei ole pelkkä tekninen hienous, vaan se, että palvelu voidaan myydä yritykselle. Ajattelet paljon näin:
+
+“Missä on pullonkaula, jota yritys ei edes itse kunnolla näe, mutta jonka poistamisesta se maksaisi?”
+
+Mitä en tiedä sinusta varmasti
+
+En tiedä tai en pitäisi varmana esimerkiksi:
+
+tarkkaa osoitettasi
+henkilötunnusta tai virallisia tunnistetietoja
+kaikkia asiakkaitasi
+nykyistä tarkkaa tulotasoasi
+kaikkia yrityksesi taloustietoja
+tarkkaa työtilannettasi juuri tänään
+kaikkia yksityisiä henkilökohtaisia suhteitasi
+kaikkia projekteja, joita olet mahdollisesti tehnyt keskustelujen ulkopuolella
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
