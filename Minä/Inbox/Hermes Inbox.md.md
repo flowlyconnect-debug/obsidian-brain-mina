@@ -236,3 +236,58 @@ Olet saanut ingestion-ajon toimimaan ja chat-agentin julkaistua. Aluksi URL/trig
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:13
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+GitHub, Google Drive ja synkkaus
+
+Olet käyttänyt GitHubia Obsidianin ja workflow-raporttien versionhallintaan. Olet kysynyt, miten koneella oleva tiedosto synkataan uuteen GitHub-repoon niin, että muutokset päivittyvät.
+
+Olet saanut GitHubiin merkintöjä n8n-workflow’sta. Sinulle on ollut tärkeää ymmärtää, menevätkö muutokset myös Obsidianiin, ja miten Google Drive / Obsidian / GitHub -kolmio toimii.
+
+Ollama ja oma LLM
+
+Olet selvittänyt, miten Ollama laitetaan Hostingerin VPS:lle Dockerilla. Olet halunnut pitää n8n:n erillään Ollamasta, jotta jos n8n:lle tapahtuu jotain, Ollama ei mene mukana rikki.
+
+Olet halunnut, että Ollama on käytettävissä internetin yli n8n Cloudista käsin. Sait Qwen2-tyyppisen mallin näkyviin. Olet myös kysynyt, miten tehdään oma LLM ja pyytänyt siihen suorat stepit ilman vaihtoehtoja.
+
+Playwright, Puppeteer, LangChain ja agentit
+
+Olet kysynyt paljon agenteista:
+
+Mitä Playwright-agentti tekee.
+Mitä Puppeteer tekee.
+Mitä LangChain tekee.
+Miten LangChainia voisi hyödyntää n8n-automaatioissa.
+Onko LangChain parempi kuin n8n:n oma Agent-node.
+Millainen agenttien tiedosto-/koodirakenne on.
+Millaisia agentteja voisi koodata ilman Playwrightia.
+Miten tehdä Hermes-tyyppinen täysin oma agentti.
+
+Sinua kiinnostavat erityisesti käytännölliset agentit, jotka ratkaisevat oikean työnkulun: hakevat tietoa, analysoivat, rikastavat, tekevät päätöksiä ja vievät tuloksen CRM:ään, Obsidianiin, Gmailiin tai muuhun järjestelmään.
+
+Yritysscraper / Google Maps / Sheets / Playwright VPS
+
+Olet rakentanut yritysten hakemiseen liittyvää workflow’ta:
+
+Google Maps Places API
+Google Sheets
+n8n
+YTJ
+Finder / Asiakastieto-tyyppiset lähteet
+Playwright
+VPS
+PM2
+Node app
+
+Tavoitteena on ollut hakea yrityksiä, rikastaa niitä päättäjätiedoilla, löytää toimitusjohtaja/nimi/puhelin, estää duplikaatit ja lähettää data Google Sheetiin tai CRM:ään.
+
+Olet halunnut, että puhelinnumero on pakollinen. Jos Playwright ei löydä tietoa, halusit fallbackin aikaisemmista nodeista. Jos numero näkyy pisteinä tai puutteellisena, halusit kokeilla yrityksen verkkosivujen scrapingia.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
