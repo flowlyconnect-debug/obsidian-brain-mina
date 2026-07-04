@@ -325,3 +325,63 @@ Ajatuksena on tuottaa aamuraportti. Raporttikansio puuttui aluksi, mutta lisäsi
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:14
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+FlowTrends / YouTube-trendiseuranta
+
+Olet rakentanut FlowTrends-tyyppistä workflow’ta, joka hakee videoita, analysoi videoiden tilastoja ja kirjoittaa raportteja GitHubiin / Obsidianiin. Myöhemmin halusit, että se lähettää raportin Gmailiin ja että raportissa olisi visuaalinen taulukko kuten GitHubissa.
+
+Halusit myös kehittää sitä niin, että se tavoittaisi enemmän videoita ja kasvattaisi Obsidian-aivojen hyötyä.
+
+Julkisten hankintojen agentti
+
+Olet suunnitellut Cloudia / Tarjouspalvelu / Hilma -pohjaista tarjousseuranta-agenttia. Asiakaskontaktina on ollut Pasi Kokko / River IT.
+
+Agentin ideana olisi seurata esimerkiksi porakaivo- ja maalämpöaiheisia tarjouspyyntöjä, kirjautua palveluihin, ladata liitteet, analysoida vaatimukset, määräajat, yhteyshenkilöt, budjetit/hinnat, referenssit ja soveltuvuusvaatimukset.
+
+Olet pohtinut toteutusta n8n:llä, Playwrightilla, Pythonilla, Dockerilla ja VPS:llä.
+
+Helsingin Juhlateltta / Antonin varausjärjestelmä
+
+Olet työskennellyt Helsingin Juhlateltan varausjärjestelmän kanssa. Stackista tiedän:
+
+Node
+Fastify
+TypeScript
+Railway
+Paytrail
+Brevo
+Pindora
+Shelly
+varauskalenteri
+admin-paneeli
+sähköpostit
+maksulinkit
+muistutukset
+thank-you-sähköpostit
+checkoutNote
+yleiset vuorot / varaukset
+
+Olet korjannut tai käsitellyt muun muassa:
+
+maksuvaiheen infotekstiä
+Brevo confirm_link -templatea
+payment redirect -ongelmia
+manual booking email undefined -ongelmaa
+varauskalenterin tekstien päivittymistä
+yleisten vuorojen puuttumista varauslistasta
+admin config -pysyvyysongelmia
+build-/deploy-ongelmia Railwaylla
+Node-version ongelmia
+sähköpostien E2E-testauksen hyväksyntäprosessia
+
+Anton on ollut tähän projektiin liittyvä asiakaskontakti.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
