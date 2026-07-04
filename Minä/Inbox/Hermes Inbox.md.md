@@ -159,3 +159,56 @@ Olet halunnut, että järjestelmä voi tehdä paljon hakuja, esimerkiksi jopa 10
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:13
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+n8n-osaamisesi ja automaatiot
+
+Käytät n8n:ää paljon. Sinulla on ollut sekä n8n Cloud että Hostingerilla self-hosted n8n. Olet tehnyt tai suunnitellut muun muassa:
+
+CRM-liidiputkia
+Google Sheets -automaatiota
+Gmail-agentteja
+Obsidian-agentteja
+GitHubiin kirjoittavia workflow’ta
+Google Drive -synkkejä
+Slack-/WhatsApp-/Telegram-tyyppisiä agenttiliittymiä
+Supabase pgvector -tietopankkeja
+monitoring-agentteja
+churn-risk-agentteja
+YouTube-/trendiseuranta-agentteja
+public procurement / tarjousseuranta-agentteja
+yritysdataa hakevia ja rikastavia agentteja
+
+Olet usein kysynyt n8n:ssä hyvin käytännön kysymyksiä: mitä laitan Set-nodeen, mitä HTTP Requestiin, miten yhdistän nodet, mitä IF-nodeen, miten expression kirjoitetaan ja miten saan JSON-datan menemään oikein seuraavaan nodeen.
+
+Obsidian, Hermes ja “Second Brain”
+
+Olet rakentanut Obsidian-pohjaista “toiset aivot” -järjestelmää. Siinä on ollut mukana:
+
+Obsidian desktop
+Google Drive for Desktop
+GitHub-synkka
+n8n
+Google Drive Trigger / tiedostojen luku
+Supabase / pgvector
+OpenAI embeddings
+Chat-agentti
+Ingestion workflow
+Markdown-tiedostot
+GitHubiin tulevat muutokset
+Obsidianiin päivittyvät raportit
+
+Olet tehnyt ainakin Obsidian Brain Agent v1:n ja suunnitellut/rakentanut v2:ta. Tavoitteena on ollut, että oma Obsidian toimii henkilökohtaisena tietopankkina, jonne agentit kirjoittavat raportteja, havaintoja, ohjeita, prosesseja ja hiljaista tietoa.
+
+Olet myös pohtinut Hermes-agentin käyttöä yrityksen keskitettynä tietopankkina: “Hermes as Your Company’s Second Brain”. Sinulle on ollut tärkeää ymmärtää, miksi n8n on mukana: n8n toimii automaatiokerroksena, joka hakee, muokkaa, siirtää ja kirjoittaa tietoa eri järjestelmien välillä.
+
+Olet halunnut vaihtaa Slackin/WhatsAppin Telegramiin tällaisessa agentissa.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
