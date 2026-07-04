@@ -442,3 +442,63 @@ Olet pohtinut Speed to Lead -puheluagenttia, jossa agentti soittaa verkkolomakke
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:15
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+Työkalut ja tekninen osaaminen
+
+Sinulla on käytännön kokemusta tai olet käyttänyt / rakentanut näillä:
+
+n8n Cloud
+self-hosted n8n Hostingerilla
+Python
+Flask
+Node.js
+Fastify
+TypeScript
+PostgreSQL
+Supabase
+pgvector
+SQLAlchemy
+Alembic
+Docker / Docker Compose
+Render
+Railway
+Hostinger VPS
+PM2
+Git
+GitHub
+Google Drive
+Google Sheets
+Gmail
+Obsidian
+Cursor
+ChatGPT
+Claude
+Perplexity
+OpenAI API
+Anthropic
+Playwright
+Puppeteer
+LangChain
+Mailgun
+Brevo
+Paytrail
+Pindora
+Shelly
+Chart.js
+SortableJS
+WeasyPrint
+APScheduler
+Redis on tullut esiin stackissa
+pg_dump / Postgres client -tyyppiset asiat
+
+Et välttämättä esittele itseäsi “perinteisenä seniorikoodarina”, mutta olet rakentanut käytännössä aika paljon oikeita järjestelmiä AI-avusteisesti ja olet oppinut korjaamaan tuotanto-, integraatio-, workflow- ja deploy-ongelmia.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
