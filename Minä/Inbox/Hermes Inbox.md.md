@@ -502,3 +502,19 @@ Et välttämättä esittele itseäsi “perinteisenä seniorikoodarina”, mutta
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:15
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+Työhakuihin liittyvät tiedot
+
+Olet ollut kiinnostunut Lead AI Developer -tyyppisestä roolista Seinäjoella, Kojoka / River IT -yhteydessä. Olet halunnut hakemuksissa painottaa n8n:ää, Pythonia, Flaskia, Nodea, TypeScriptiä, PostgreSQL:ää, Dockeria, Renderiä, Railwayta, Cursorin/Claudin/ChatGPT:n käyttöä ja käytännön AI-agenttiprojekteja.
+
+Olet myös pyytänyt, että FlowlyLeads jätetään pois joistain hakemuksista, kun se ei sovi siihen kontekstiin.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
