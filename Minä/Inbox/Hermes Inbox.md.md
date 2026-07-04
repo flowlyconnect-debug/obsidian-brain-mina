@@ -83,3 +83,79 @@ Olet painottanut useasti, että haluat löytää oikeita yritysten pullonkauloja
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:12
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+Yritykset ja brändit, joihin sinut liitän
+
+Sinulla on ainakin nämä nimet/projektit keskusteluissa:
+
+Revealuxury Oy
+Oma yrityksesi/brändisi. Liittyy vaate-/designer-/resell-tyyppiseen brändiin. Olet tehnyt siihen markkinointia, verkkosivua, myyntiä ja hankintaa.
+
+FlowlyLeads / FlowlyLeads CRM / Flowly Solutions
+Tämä on iso projekti, jota olet rakentanut pitkään. Se on CRM-/liidijärjestelmä, joka liittyy erityisesti urakoitsijoihin, remonttifirmoihin, rakennusalaan ja kiinteistöalaan. Olet puhunut 89 €/kk paketista, mahdollisesta räätälöidystä paketista, 3 kuukauden irtisanomisajasta, ilmaisesta kokeilusta ja siitä, että ensimmäiset liidit näkyvät yleensä saman päivän aikana.
+
+FlowLeads / FlowlyLeads n8n-pipeline
+Olet rakentanut n8n-pohjaista liidien hakua, job dispatcher / job poller / lead worker -rakennetta, jossa haetaan Oikotie-tyyppisistä lähteistä sivuja ja lähetetään niitä workerille käsiteltäväksi.
+
+Obsidian Brain Agent / Hermes-tyyppinen toinen aivo
+Olet rakentanut henkilökohtaista ja yrityskäyttöistä Obsidian + n8n + Google Drive + GitHub -pohjaista tietopankkiagenttia.
+
+Helsingin Juhlateltta / Antonin projekti
+Olet tehnyt asiakkaalle ajanvaraus-/varauskalenterijärjestelmää Node/Fastify/TypeScript/Railway-stackilla. Siellä on ollut Paytrail, Brevo, Pindora, Shelly, sähköpostit, varaukset, yleiset vuorot, hallintapaneeli ja paljon korjauksia.
+
+FlowlyLeads CRM: mitä olet tehnyt
+
+FlowlyLeads CRM on ollut yksi isoimmista projekteistasi. Se on Flask-pohjainen SaaS/CRM, joka on ollut Renderissä. Tiedän siitä muun muassa:
+
+Live-palvelu on ollut Renderissä.
+Tietokantana Render Postgres.
+Backendissä Flask, SQLAlchemy, Alembic.
+Käytössä roolit kuten superadmin, admin, user ja api_client.
+API-avaimia käytetään n8n-integraatioihin.
+On rakennettu organisaatioita, käyttäjiä, rooleja, audit logia, backuppeja, liidejä, pipeline boardia, aktiviteetteja, AI enrichmentiä, sähköposteja, analytiikkaa, tehtäviä, custom fieldsejä, segmenttejä, email sequenceja, automaatioita, GDPR-toimintoja, kalenteri-integraatioita, proposal/PDF-toimintoja, webhooks-toimintoja ja public forms -moduulia.
+Olet rakentanut admin onboarding -flow’n, jossa superadmin voi luoda uuden asiakkaan, organisaation, admin-käyttäjän, API-avaimen, hakuprofiilin, pending search jobin, pipeline staget ja asetukset.
+Olet halunnut siivota admin-asetuksia ja tehdä selkeämmän rakenteen: asiakkaat, hakujärjestelmä, integraatiot, järjestelmä ja hallintapaneeli.
+Olet halunnut asiakaslistan superadminille.
+Olet korjannut/korjauttanut 2FA-, dashboard-, forms-, pipeline-, API-, scheduler- ja production deploy -ongelmia.
+
+FlowlyLeadsin kohderyhmänä olet pitänyt erityisesti urakoitsijoita, remonttiyrityksiä, rakennusalaa ja kiinteistöalaa. Palvelun idea on auttaa yrityksiä löytämään uusia remontti-/projektikohteita verkosta ennen kilpailijoita.
+
+FlowLeads / n8n-liidiputki
+
+Olet rakentanut n8n:ssä työnkulkuja, joissa:
+
+Job Poller hakee pending-jobit CRM:stä.
+Job merkitään running-tilaan.
+Job lähetetään Lead Workerille.
+Worker hakee sivuja/liidejä.
+Tulokset lähetetään CRM:ään.
+Lopuksi job merkitään complete-tilaan.
+
+Ongelma, jota olet pitkään korjannut, oli se, että Job Dispatcher lähetti aina saman sivun Lead Workerille, vaikka sen pitäisi lähettää eri sivut yksi kerrallaan.
+
+Olet käyttänyt käsitteitä kuten:
+
+Job Dispatcher
+Job Poller
+Lead Worker
+page
+offset
+limit
+max_pages
+pending / running / completed
+Oikotie
+CRM API key
+SearchProfile
+SearchJob
+
+Olet halunnut, että järjestelmä voi tehdä paljon hakuja, esimerkiksi jopa 100 asiakkaalle päivässä.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
