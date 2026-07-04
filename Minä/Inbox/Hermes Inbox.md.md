@@ -63,3 +63,23 @@ Sinulla on ollut tavoite päästä pois päivätyöstä 2–4 kuukaudessa, saada
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:12
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+Miten haluat yleensä työskennellä
+
+Haluat usein, että asiat tehdään vaihe vaiheelta. Olet pyytänyt monta kertaa tyyliä: minä annan yhden vaiheen, sinä teet sen, lähetät kuvan tai sanot “valmis”, ja vasta sitten jatketaan.
+
+Et pidä siitä, että teen omin päin liian isoja muutoksia tai ehdotan kaikkea kerralla. Haluat yleensä suorat ohjeet: “mitä painan”, “mitä laitan tähän kenttään”, “mikä node seuraavaksi”, “anna koko koodi”.
+
+Pidät käytännöllisistä vastauksista suomeksi. Et halua geneeristä konsulttijargonia. Olet myös selvästi kriittinen ideoiden suhteen: jos idea on liian yleinen, liian kilpailtu, liian helppo kopioida, liian “nice to have” tai siitä on ilmainen/freemium-vaihtoehto, et pidä sitä hyvänä bisneksenä.
+
+Olet painottanut useasti, että haluat löytää oikeita yritysten pullonkauloja, joista voi rakentaa n8n-workflow’n, agentin tai tuotetun palvelun.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
