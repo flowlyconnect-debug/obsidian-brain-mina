@@ -596,3 +596,125 @@ kaikkia projekteja, joita olet mahdollisesti tehnyt keskustelujen ulkopuolella
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 23:08
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+# AI-agentit ja työkalut — Oppimispolku
+
+Tämä lista on priorisoitu tärkeyden ja oppimisajan mukaan. Aloita ylhäältä.
+
+---
+
+## 1. PERUSTEET — Selainautomaatiot (1-2 viikkoa)
+
+### Playwright ⭐⭐⭐ (ALOITA TÄSTÄ)
+- Selainautomaatiot, scraping, kirjautumiset, screenshotit, lomakkeet
+- Moderni, nopea, monipuolinen (Chrome, Firefox, Safari)
+- Käytetään eniten uusissa projekteissa
+- Milloin: Heti, kun aloitat agenttirakentamisen
+
+### Puppeteer ⭐⭐
+- Selainautomaatiot Node.js:llä, kevyempi vaihtoehto Playwrightille
+- Hieman vanhempi kuin Playwright, mutta stabiili
+- Hyvä jos käytät pääosin Node.js:ää
+- Milloin: Jälkeen kun olet oppinut Playwrightin perus
+
+### Selenium ⭐
+- Vanhempi selainautomaatiotyökalu, paljon käytössä testauksessa
+- Hieman raskaampi kuin Playwright/Puppeteer
+- Milloin: Vain jos asiakkaalla on vanha Selenium-koodi
+
+---
+
+## 2. AI-AGENTIT — Rakentaminen (2-4 viikkoa)
+
+### LangChain ⭐⭐⭐ (TÄRKEÄ)
+- Yhdistää AI-mallin, työkalut, promptit, muistin ja API:t agentiksi
+- De facto standardi monissa AI-agentti-projekteissa
+- Hyvin dokumentoitu, suuri ekosysteemi
+- Milloin: Heti Playwrightin jälkeen
+
+### LangGraph ⭐⭐⭐ (TÄRKEÄ)
+- Rakentaa monivaiheisia, tilallisia AI-agentteja ja workflow-logiikkaa
+- LangChainin seuraaja, parempi komplekseihin agentteihin
+- Kontrolloi agentin kulkua (päätökset, silmukat, tilat)
+- Milloin: Kun haluat monimutkaisempia agentteja
+
+### CrewAI ⭐⭐⭐
+- Tekee moniagenttijärjestelmiä, joissa usealla agentilla on eri roolit
+- Erityisen hyvä rooliperusteisiin järjestelmiin
+- Helpompi kuin LangGraph:in kaltainen low-level koodi
+- Milloin: Kun haluat useita agentteja työskentelemään yhteen
+
+### LlamaIndex ⭐⭐⭐
+- Rakentaa RAG-/tietopankkiagentteja dokumenteista, PDF:istä ja tietokannoista
+- Erikoistuu dokumenttien indeksöintiin ja hakuun
+- Loistava henkilökohtaiseen Obsidian-brainiin
+- Milloin: Kun haluat rakentaa tietopankki-agentin
+
+### AutoGen ⭐⭐
+- Moniagenttikehys, jossa agentit keskustelevat ja ratkaisevat tehtäviä yhdessä
+- Microsoftin projekti, stabiili
+- Hieman monimutkaisempi kuin CrewAI
+- Milloin: Jos CrewAI tuntuu liian yksinkertaiselta
+
+### OpenAI Agents SDK ⭐⭐
+- OpenAI-pohjaisten agenttien rakentamiseen, tool callingiin ja agenttien ohjaukseen
+- OpenAI-spesifi, hyvä jos käytät GPT-4/o1:tä
+- Kevyempi kuin LangChain/LangGraph
+- Milloin: Jos haluat pitkälle optimoida OpenAI:lle
+
+### Semantic Kernel ⭐
+- Microsoftin agentti-/LLM-framework, hyvä Microsoft-ympäristöihin
+- C#-pohjainen, ei niinkään Pythonille
+- Milloin: Vain jos olet Microsoft-maailmassa
+
+---
+
+## 3. AGENTTIEN YHDISTÄMINEN TYÖKALUIHIN (1 viikko)
+
+### MCP ⭐⭐⭐ (UUSI STANDARDI)
+- Standardi, jolla agentti yhdistetään työkaluihin: tiedostot, GitHub, tietokanta, selain
+- Avoin standardi, tulevaisuus
+- Helpottaa agentteja laajentaa ja lisätä uusia työkaluja
+- Milloin: Nyt, kun opit rakentamaan agentteja
+
+---
+
+## 4. SELAINAUTOMAATIOT — EDISTYNEET (2 viikkoa)
+
+### Stagehand ⭐⭐⭐
+- AI-avusteinen selainautomaatio Playwrightin päälle
+- Pelkkä "mene sivulle X ja klikkaa nappia Y" → AI ymmärtää tavoitteen
+- Loistava monimutkaisten lomakkeiden täyttämiseen
+- Milloin: Kun Playwright-koodi muuttuu liian monimutkaiseksi
+
+### Computer Use ⭐⭐⭐
+- Agentti käyttää tietokonetta/selainta visuaalisesti kuten ihminen
+- Claude Vision + hiiri/näppäimistö -automatiikka
+- Äärimmäisen tehokas, mutta hitaampi
+- Milloin: Kun perinteiset menetelmät eivät riitä
+
+### Browserbase ⭐⭐
+- Pilvessä ajettava selainympäristö AI-agenteille ja scrapingille
+- Ei tarvitse VPS:ää, hallinnoidussa pilvessa
+- Hyvä suurten scrapingoperaatioiden juokseuttamiseen
+- Milloin: Kun Playwright paikallisesti ei enää riitä
+
+---
+
+## 5. WORKFLOW-AUTOMAATIO (1-2 viikkoa)
+
+### n8n ⭐⭐⭐⭐ (SINULLA JO KÄYTÖSSÄ)
+- Workflow-automaatio, yhdistää API:t, triggerit, AI:n ja palvelut
+- Visuaalinen, helppo aloittelijoille, tehokas proille
+- Voit integroida Playwright-, LangChain- ja muita agentteja
+- Milloin: Käytä rinnakkain muiden kanssa, yhdistä n8n:iin
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
