@@ -385,3 +385,60 @@ Anton on ollut tähän projektiin liittyvä asiakaskontakti.
 Inbox
 
 **Käsittelytila:** käsittelemättä
+
+## 2026-07-04 17:14
+
+**Lähde:** Telegram
+
+**Raakamuistiinpano:**  
+Website / FlowlyLeads-sivuston design
+
+Olet rakentanut tai uudistanut FlowlyLeadsin verkkosivua. Olet ollut tarkka siitä, että sivu ei saa näyttää geneeriseltä AI-startupilta.
+
+Olet lukinnut väripaletiksi:
+
+#0B0F1A
+#1D6BF3
+#38BDF8
+#F4F6FB
+
+Olet sanonut, että värejä ei saa muokata. Et halua:
+
+glassmorphismia
+floating dashboardeja
+glowing-efektejä
+feature grid -geneerisyyttä
+startup-heroja
+epämääräistä jargonia
+sanoja kuten “vapauta potentiaali”, “tehosta”, “optimoi”, “saumaton”, “vallankumouksellinen”
+
+Haluat selkeän konseptin, vahvan typografian, ihmisläheisen tekstin, tarkoituksellisen spacingin, muistettavan heron ja selkeän konversiopolun.
+
+Olet halunnut, että FlowlyLeads esitetään yksinkertaisena CRM:nä, ei “AI CRM:nä”.
+
+Myynti, asiakkaat ja offerit
+
+Olet etsinyt paljon myytäviä automaatiopalveluita. Tärkeimmät kriteerisi ovat:
+
+ratkaisee oikean bisnesongelman
+korkea ROI
+selkeä kipu
+maksava kohderyhmä
+ei ilmaisia/freemium-vaihtoehtoja
+ei geneeristä dashboardia
+ei pelkkää AI-sisällöntuotantoa
+ei “nice to have”
+mielellään jatkuvalaskutteinen
+mielellään vaikea toteuttaa ilman maksullisia työkaluja
+selkeä myyntikulma
+
+Olet kiinnostunut erityisesti yrityksistä, joilla on prosesseissa hitautta, manuaalista työtä, huono lead response, asiakaskato, tarjousseurannan ongelmia, myynnin pullonkauloja tai hajallaan olevaa tietoa.
+
+Olet kysynyt myyntiscriptiä esimerkiksi Millimitta.fi-yritykselle, jossa halusit tarjota kartoituspuhelua automaatioista ja koodaamisesta. Halusit myös paremmin esitellä, mitä oikeasti teet.
+
+Olet pohtinut Speed to Lead -puheluagenttia, jossa agentti soittaa verkkolomakkeen täyttäneelle liidille nopeasti, kysyy lisäkysymyksiä ja varaa ajan kalenteriin.
+
+**Mahdollinen paikka:**  
+Inbox
+
+**Käsittelytila:** käsittelemättä
