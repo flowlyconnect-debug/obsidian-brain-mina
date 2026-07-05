@@ -1,4 +1,4 @@
-
+[[Kaikki minusta]]
 # Päätökset
 
 Tähän tallennetaan tärkeät päätökset, jotta Hermes ja minä muistamme miksi jokin asia valittiin.

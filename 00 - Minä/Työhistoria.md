@@ -1,4 +1,4 @@
-
+[[Kaikki minusta]]
 
 ## Revealuxury Oy
 Perustaja

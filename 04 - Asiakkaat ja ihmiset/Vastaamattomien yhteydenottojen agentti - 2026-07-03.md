@@ -1,4 +1,4 @@
-## Vastaamattomien yhteydenottojen agentti
+[[Kaikki minusta]]## Vastaamattomien yhteydenottojen agentti
 
 **Tyyppi:** business_idea  
 **Liittyvä projekti:** Asiakaskato Agent  

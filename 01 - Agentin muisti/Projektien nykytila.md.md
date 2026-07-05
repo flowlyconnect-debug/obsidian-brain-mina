@@ -1,4 +1,4 @@
-
+[[Kaikki minusta]]
 # Projektien nykytila
 
 Tähän Hermes kokoaa lyhyen nykytilan tärkeimmistä projekteista.

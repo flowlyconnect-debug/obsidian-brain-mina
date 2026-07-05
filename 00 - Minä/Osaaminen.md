@@ -1,4 +1,5 @@
 # Osaaminen
+[[Kaikki minusta]]
 
 ## AI
 - OpenAI

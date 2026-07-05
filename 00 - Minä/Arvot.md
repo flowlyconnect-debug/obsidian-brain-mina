@@ -1,4 +1,4 @@
-
+[[Kaikki minusta]]
 # Arvot
 
 - Rehellisyys

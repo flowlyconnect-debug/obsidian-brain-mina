@@ -1,3 +1,4 @@
+[[Kaikki minusta]]
 Tekoälyratkaisujen ja automaatioiden suunnittelu sekä toteutus
 
 • Liiketoimintaprosessien analysointi ja automatisointi

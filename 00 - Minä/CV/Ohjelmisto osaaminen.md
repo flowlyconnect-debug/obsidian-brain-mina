@@ -1,3 +1,4 @@
+[[Kaikki minusta]]
 Tekoäly ja AI-kehitys
 
 • OpenAI (GPT-mallit, Assistants, API:t)
