@@ -1,0 +1,1 @@
+Tänne yksi tiedosto per puhelu templatella [[Puhelu ja analyysi]]. Nimi: `2026-07-08 Esimerkki Katto - Pekka.md`. Täyttö max 2 min heti puhelun jälkeen. Poista tämä tiedosto kun ensimmäinen oikea puhelu on kirjattu.

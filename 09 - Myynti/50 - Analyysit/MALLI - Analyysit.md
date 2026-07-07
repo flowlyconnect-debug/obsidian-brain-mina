@@ -1,0 +1,1 @@
+Tänne voitto- ja häviöanalyysit templateilla [[Voittoanalyysi]] ja [[Häviöanalyysi]] sekä caset ("asiakas sai 20 liidistä 4 tarjouspyyntöä"). Hermes saa kirjoittaa tänne. Poista tämä tiedosto kun ensimmäinen analyysi on tehty.

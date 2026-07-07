@@ -1,0 +1,1 @@
+Tänne yksi tiedosto per tarjous templatella [[Tarjouskortti]]. Nimi: `2026-07-08 Esimerkki Katto - Testilista.md`. Tarjousviestin pohja: [[Viestipohjat ja follow-up]]. Poista tämä tiedosto kun ensimmäinen oikea tarjous on kirjattu.

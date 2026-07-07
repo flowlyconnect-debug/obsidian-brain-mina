@@ -1,0 +1,150 @@
+{
+  "name": "Flowly - Aamuraportti",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 7 * * 1-6"
+            }
+          ]
+        }
+      },
+      "name": "Joka aamu 7.00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-960, 0]
+    },
+    {
+      "parameters": {
+        "url": "https://api.github.com/repos/GITHUB_OMISTAJA/GITHUB_REPO/contents/09%20-%20Myynti/10%20-%20Liidit",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {}
+      },
+      "name": "Hae liidikansio (GitHub)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-740, 0]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Pidä vain .md-tiedostot ja poimi latauslinkit\nreturn $input.all()\n  .filter(i => i.json.name && i.json.name.endsWith('.md'))\n  .map(i => ({ json: { name: i.json.name, url: i.json.download_url } }));"
+      },
+      "name": "Suodata md-tiedostot",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-520, 0]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.url }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "name": "Lataa liidikortti",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-300, 0]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Kokoa kaikki liidikortit yhdeksi aineistoksi + rakenna promptit\nconst nimet = $('Suodata md-tiedostot').all();\nconst kortit = $input.all().map((item, i) => {\n  const nimi = nimet[i] ? nimet[i].json.name : 'tuntematon';\n  return `===== LIIDIKORTTI: ${nimi} =====\\n${item.json.data}`;\n});\nconst tanaan = new Date().toLocaleDateString('fi-FI', { weekday: 'long', year: 'numeric', month: 'numeric', day: 'numeric', timeZone: 'Europe/Helsinki' });\nconst pvm = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Helsinki' });\n\nconst systemPrompt = `Olet Flowlyn myyntiassistentti. Tuota aamuraportti suomeksi. Tänään on ${tanaan}.\\n\\nSaat aineistona liidikortteja Obsidian-vaultista. Korteissa on: status-tagit (#status/uusi, #status/soitettu, #status/kiinnostunut, #status/tarjous, #status/asiakas, #status/myöhemmin), pisteet 0-100, päättäjän yhteystiedot, valmiit liidit asiakkaalle, ja Seuraava askel + päivämäärä.\\n\\nRAPORTIN RAKENNE (tässä järjestyksessä, max noin 2500 merkkiä yhteensä):\\n1. RAHA TÄNÄÄN: 1-3 toimenpidettä jotka todennäköisimmin tuovat rahaa tänään (kiinnostuneet lähellä päätöstä, erääntyvät follow-upit, toimitettavat testipaketit). Perustelu 1 lause.\\n2. SOITTOLISTA: max 10 yritystä pisteytysjärjestyksessä. Jokaisesta: nimi, numero, pisteet, miksi juuri tänään, ja 1 avauslause juuri tälle firmalle.\\n3. FOLLOW-UPIT: kortit joiden Seuraava askel -päivämäärä on tänään tai mennyt. Mainitse mitä viimeksi sovittiin.\\n4. JUMISSA: #status/tarjous-kortit ilman etenemistä - ehdota pelastusliike.\\n5. PÄIVÄN FOKUS: 1 myyntitaito + 1 vastaväite harjoiteltavaksi.\\n\\nSÄÄNNÖT: Suora suomi, ei hypeä, ei tekoälyjargonia. Älä keksi dataa - jos jokin osio on tyhjä, sano se yhdellä rivillä. Älä ehdota työkalujen rakentamista. Muotoile Telegram-yhteensopivasti: ei markdown-taulukoita, käytä rivinvaihtoja ja isoja otsikkorivejä.`;\n\nreturn [{ json: { aineisto: kortit.join('\\n\\n'), systemPrompt, pvm } }];"
+      },
+      "name": "Kokoa aineisto ja prompt",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-80, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ model: 'anthropic/claude-sonnet-4.5', messages: [ { role: 'system', content: $json.systemPrompt }, { role: 'user', content: 'Tässä liidikortit:\\n\\n' + $json.aineisto } ] }) }}",
+        "options": {}
+      },
+      "name": "LLM koostaa raportin (OpenRouter)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [140, 0]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Valmistele Telegram-viesti ja GitHub-commit\nconst raportti = $json.choices[0].message.content;\nconst pvm = $('Kokoa aineisto ja prompt').first().json.pvm;\nconst tiedosto = `# ${pvm} Aamuraportti\\n\\n${raportti}`;\nreturn [{ json: {\n  teksti: raportti.length > 3900 ? raportti.slice(0, 3900) + '\\n(...katkaistu, koko raportti Obsidianissa)' : raportti,\n  base64: Buffer.from(tiedosto, 'utf-8').toString('base64'),\n  polku: `09 - Myynti/00 - Ohjaus/${pvm} Aamuraportti.md`,\n  pvm\n} }];"
+      },
+      "name": "Valmistele viesti ja commit",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [360, 0]
+    },
+    {
+      "parameters": {
+        "chatId": "VAIHDA_TELEGRAM_CHAT_ID",
+        "text": "={{ $json.teksti }}",
+        "additionalFields": {}
+      },
+      "name": "Lähetä Telegramiin",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [580, -120]
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "=https://api.github.com/repos/GITHUB_OMISTAJA/GITHUB_REPO/contents/{{ encodeURI($json.polku) }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ message: 'Aamuraportti ' + $json.pvm, content: $json.base64 }) }}",
+        "options": {}
+      },
+      "name": "Tallenna raportti vaultiin (GitHub)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [580, 120]
+    }
+  ],
+  "connections": {
+    "Joka aamu 7.00": {
+      "main": [[{ "node": "Hae liidikansio (GitHub)", "type": "main", "index": 0 }]]
+    },
+    "Hae liidikansio (GitHub)": {
+      "main": [[{ "node": "Suodata md-tiedostot", "type": "main", "index": 0 }]]
+    },
+    "Suodata md-tiedostot": {
+      "main": [[{ "node": "Lataa liidikortti", "type": "main", "index": 0 }]]
+    },
+    "Lataa liidikortti": {
+      "main": [[{ "node": "Kokoa aineisto ja prompt", "type": "main", "index": 0 }]]
+    },
+    "Kokoa aineisto ja prompt": {
+      "main": [[{ "node": "LLM koostaa raportin (OpenRouter)", "type": "main", "index": 0 }]]
+    },
+    "LLM koostaa raportin (OpenRouter)": {
+      "main": [[{ "node": "Valmistele viesti ja commit", "type": "main", "index": 0 }]]
+    },
+    "Valmistele viesti ja commit": {
+      "main": [[
+        { "node": "Lähetä Telegramiin", "type": "main", "index": 0 },
+        { "node": "Tallenna raportti vaultiin (GitHub)", "type": "main", "index": 0 }
+      ]]
+    }
+  },
+  "settings": { "executionOrder": "v1", "timezone": "Europe/Helsinki" },
+  "pinData": {}
+}

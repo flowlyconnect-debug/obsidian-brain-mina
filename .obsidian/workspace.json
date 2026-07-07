@@ -1,102 +1,41 @@
 {
   "main": {
-    "id": "86688a2188accdfb",
+    "id": "66900e18fa8badbd",
     "type": "split",
     "children": [
       {
-        "id": "8330a534aec3feb8",
+        "id": "84930b1c48040951",
         "type": "tabs",
-        "dimension": 29.411764705882355,
         "children": [
           {
-            "id": "0353061dd38260fa",
+            "id": "e7937856bbad4586",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Identiteetti/Kuka olen.md/Kuka olen.md",
+                "file": "09 - Myynti/LUE ENSIN - Myyntijärjestelmä.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kuka olen"
+              "title": "LUE ENSIN - Myyntijärjestelmä"
             }
           }
         ]
-      },
-      {
-        "id": "974ae1925cfde900",
-        "type": "tabs",
-        "dimension": 70.58823529411765,
-        "children": [
-          {
-            "id": "9064e092b2240f70",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Verkkonäkymä"
-            }
-          },
-          {
-            "id": "a44858c0fdd7e8ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Identiteetti/Kuka olen.md/Kuka olen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kuka olen"
-            }
-          },
-          {
-            "id": "692b204999b5559c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Inbox.md.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Inbox.md"
-            }
-          },
-          {
-            "id": "c694e62e668dabf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projektit/Hermes Agent.md.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hermes Agent.md"
-            }
-          }
-        ],
-        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "bc3dd197277563a5",
+    "id": "cbcdd1f781b713e0",
     "type": "split",
     "children": [
       {
-        "id": "9d1d561760ac81fd",
+        "id": "f1b81756f40b6de5",
         "type": "tabs",
         "children": [
           {
-            "id": "9e07cc49eda037af",
+            "id": "e1463e3b884f5243",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -109,7 +48,7 @@
             }
           },
           {
-            "id": "02f4745aea10344d",
+            "id": "86c99ade98314f75",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -126,7 +65,7 @@
             }
           },
           {
-            "id": "9700d55c9835f0be",
+            "id": "7716737f10459834",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -142,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "433f5b084cba9877",
+    "id": "89d772cf3cd89442",
     "type": "split",
     "children": [
       {
-        "id": "f100b6477477e270",
+        "id": "5a56f8a52c543eb1",
         "type": "tabs",
         "children": [
           {
-            "id": "fd996378f6e97736",
+            "id": "b93be3d6fcbcc601",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox.md/Inbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Paluulinkit: Inbox"
+              "title": "Paluulinkit"
             }
           },
           {
-            "id": "c9adce1eff782aac",
+            "id": "0b79dd8c1883933d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox.md/Inbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Lähtevät linkit: Inbox"
+              "title": "Lähtevät linkit"
             }
           },
           {
-            "id": "70c8523551fc8ac6",
+            "id": "9abcec309f666055",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -198,7 +135,7 @@
             }
           },
           {
-            "id": "4c0301e39998724a",
+            "id": "58b428c628250528",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -212,18 +149,17 @@
             }
           },
           {
-            "id": "6eb07a9edeb8b4fa",
+            "id": "7f487ebf3a613b80",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox.md/Inbox.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sisällysluettelo: Inbox"
+              "title": "Sisällysluettelo"
             }
           }
         ]
@@ -242,46 +178,18 @@
       "templates:Lisää malline": false,
       "command-palette:Avaa komentovalikko": false,
       "bases:Luo uusi kanta": false,
-      "templater-obsidian:Templater": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c694e62e668dabf5",
+  "active": "e7937856bbad4586",
   "lastOpenFiles": [
-    "Inbox/Hermes Inbox.md.md",
-    "Projektit/Hermes Agent.md.md",
-    "Inbox/Inbox.md.md",
-    "Agentin muisti/Hermes ohjeet.md.md",
-    "Agentin muisti/Projektien nykytila.md.md",
-    "Agentin muisti/Avoimet tehtävät.md.md",
-    "Agentin muisti/Päätökset.md.md",
-    "Agentin muisti/Nimetön.base",
-    "Agentin muisti/efefef",
-    "Agentin muisti/Pysyvät faktat.md.md",
-    "Käsitelty.md",
-    "Havainnot/Vastaamattomien yhteydenottojen agentti - 2026-07-03.md",
-    "agentti-testi-2026.md",
-    "Identiteetti/Kuka olen.md/Kuka olen.md",
-    "Havainnot/Seuraavat tehtavat.md.md",
-    "Agentin muisti",
-    "Agentin muisti.md",
-    "Havainnot/Asiakasongelmat.md.md",
-    "Havainnot/Tuoteideat.md.md",
-    "Havainnot/Myyntikulmat.md.md",
-    "Havainnot/Pullonkaulat.md.md",
-    "Havainnot/Agentin löydökset.md.md",
-    "Havainnot",
-    "Identiteetti/Arvot.md/Arvot.md",
-    "Identiteetti/Osaaminen.md/Osaaminen.md",
-    "Identiteetti/Työhistoria.md/Työhistoria.md",
-    "Identiteetti/Yritykset.md/FlowlySolutions.md",
-    "Identiteetti/Yritykset.md/ReveaLuxury Oy.md",
-    "Inbox",
-    "Identiteetti/CV.md/Ohjelmisto osaaminen.md",
-    "Identiteetti/CV.md/Osaaminen.md",
-    "Oppiminen",
-    "Nimetön 1",
-    "Liiketoiminta",
-    "Ihmiset",
-    "Päiväkirja"
+    "09 - Myynti/95 - n8n/Flowly - Aamuraportti – kopio.json",
+    "09 - Myynti/Myyntikone-suunnitelma.md",
+    "09 - Myynti/LUE ENSIN - Myyntijärjestelmä.md",
+    "01 - Agentin muisti/Hermes ohjeet.md.md",
+    "09 - Myynti/00 - Ohjaus/2026-07-07 Päivä.md",
+    "00 - Aloita tästä.md",
+    "01 - Agentin muisti/Hermes Inbox.md.md",
+    "01 - Agentin muisti/hermes-git-testi.md"
   ]
 }

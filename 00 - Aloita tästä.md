@@ -22,3 +22,5 @@ Inbox on sisääntulopiste, ei lopullinen tietorakenne.
 
 TÄRKEÄÄ:
 Älä muuta Inbox-kansiota tässä järjestelyssä.
+
+[[Kaikki minusta]]
